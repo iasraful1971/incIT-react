@@ -1,0 +1,33 @@
+.container{
+    background:bisque;
+    border-radius: 20px;
+    padding: 20px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+@media(max-width: 576px){
+    .team-container{
+        grid-template-columns: 1fr; 
+    }
+    .col-lg-8{
+        order: 2;
+    }
+    .col-lg-4{
+        order: 1;
+        margin-bottom: 20px;
+    }
+}
+
+.team-aside{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+   margin-top: 10px;
+}

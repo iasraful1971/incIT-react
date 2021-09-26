@@ -1,0 +1,23 @@
+.header .container{
+    background:#353353;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+    color:coral
+    
+}
+p{
+    line-height: 28px;
+    color: #ebe1e1;
+}
+.last-h2{
+    color: #e4b0b0;
+    font-size: 22px;
+}
+hr{
+    color: #fff;
+    font-weight: bold;
+}
